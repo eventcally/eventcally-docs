@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+        <img src="/assets/images/calendar_icon_90.png" width="30" height="30" class="d-inline-block align-top rounded"
+            alt="Logo"> Oveda Docs
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="/features.html">{{ site.data.lang.navigation.features }}</a>
+            <a class="nav-item nav-link" href="/faq.html">{{ site.data.lang.navigation.faq }}</a>
+        </div>
+        <div class="navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarUserDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-language" style="font-size: 1.5rem;"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarUserDropdown">
+                    {% for tongue in site.languages %}
+                    <a class="dropdown-item" {% if tongue==site.active_lang %}style="font-weight: bold;" {% endif %} {%
+                        static_href
+                        %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"
+                        {% endstatic_href %}>{{ site.data.lang.languages[tongue] }}</a>
+                    {% endfor %}
+            </li>
+        </div>
+    </div>
+</nav>
+
+<p>
+
+</p>

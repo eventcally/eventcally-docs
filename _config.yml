@@ -1,0 +1,36 @@
+exclude: ["README.md"]
+timezone: Europe/Berlin
+
+title: Oveda Docs
+description:
+  de: Dokumentation für Oveda
+  en: Documentation for Oveda
+
+url: https://oveda-docs.github.io
+parent_url: https://oveda.de
+
+languages: ["de", "en"]
+default_lang: "de"
+exclude_from_localization: ["assets", "favicon.ico"]
+parallel_localization: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

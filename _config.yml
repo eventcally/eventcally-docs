@@ -6,7 +6,8 @@ description:
   de: Dokumentation für Oveda
   en: Documentation for Oveda
 
-url: https://oveda-docs.github.io
+url: https://oveda-events.github.io
+baseurl: /oveda-docs
 parent_url: https://oveda.de
 
 languages: ["de", "en"]

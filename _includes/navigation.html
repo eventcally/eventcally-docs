@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">
-        <img src="/assets/images/calendar_icon_90.png" width="30" height="30" class="d-inline-block align-top rounded"
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/images/calendar_icon_90.png' | relative_url }}" width="30" height="30" class="d-inline-block align-top rounded"
             alt="Logo"> Oveda Docs
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -10,8 +10,8 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link" href="/features.html">{{ site.data.lang.navigation.features }}</a>
-            <a class="nav-item nav-link" href="/faq.html">{{ site.data.lang.navigation.faq }}</a>
+            <a class="nav-item nav-link" href="{{ '/features.html' | relative_url }}">{{ site.data.lang.navigation.features }}</a>
+            <a class="nav-item nav-link" href="{{ '/faq.html' | relative_url }}">{{ site.data.lang.navigation.faq }}</a>
         </div>
         <div class="navbar-nav navbar-right">
             <li class="nav-item dropdown">

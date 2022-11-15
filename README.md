@@ -1,4 +1,4 @@
-# Oveda Homepage
+# Oveda documentation
 
 You can now prefix all jekyll commands listed in this tutorial with ```bundle exec``` to make sure you use the jekyll version defined in your Gemfile.
 

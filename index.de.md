@@ -3,7 +3,7 @@ lang: de
 title: Start
 permalink: /
 ---
-Willkommen zur Dokumentation der Veranstaltungsdatenbank Oveda.
+Willkommen zur Dokumentation der Veranstaltungsdatenbank EventCally.
 
 Hier gibt es Informationen zu:
 

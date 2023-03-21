@@ -1,14 +1,14 @@
 exclude: ["README.md"]
 timezone: Europe/Berlin
 
-title: Oveda Docs
+title: EventCally Docs
 description:
-  de: Dokumentation für Oveda
-  en: Documentation for Oveda
+  de: Dokumentation für EventCally
+  en: Documentation for EventCally
 
-url: https://docs.oveda.de
+url: https://docs.eventcally.com
 baseurl:
-parent_url: https://oveda.de
+parent_url: https://eventcally.com
 
 languages: ["de", "en"]
 default_lang: "de"

@@ -1,8 +1,12 @@
+date_format: "%b %d, %Y"
+short_title: Docs
 languages:
   de: Deutsch
   en: English
 legal_notice: Legal notice
 contact: Contact
-navigation:
+excerpt_more: More
+categories:
+  newsletter: Newsletter
   features: Features
   faq: FAQ

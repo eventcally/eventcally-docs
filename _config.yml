@@ -1,5 +1,6 @@
 exclude: ["README.md"]
 timezone: Europe/Berlin
+permalink: /:year/:month/:day/:title:output_ext
 
 title: EventCally Docs
 description:
@@ -18,11 +19,6 @@ parallel_localization: true
 defaults:
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post"
@@ -35,3 +31,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-category-pages

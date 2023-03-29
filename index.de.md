@@ -1,11 +1,29 @@
 ---
 lang: de
-title: Start
+title: Dokumentation
 permalink: /
 ---
-Willkommen zur Dokumentation der Veranstaltungsdatenbank EventCally.
+Willkommen zur Dokumentation der Veranstaltungsdatenbank.
 
-Hier gibt es Informationen zu:
+## Kategorien
 
-* [Funktionen]({% link features.md %})
-* [Fragen und Antworten]({% link faq.md %})
+<ul>
+{% for category in site.categories %}
+    {% assign first_category = category | first %}
+    <li><a href="{{ site.url }}/category/{{ category | first | slugify }}/index.html">{{ site.data.lang.categories[first_category] }}</a>
+</li>
+{% endfor %}
+</ul>
+
+## Neueste Einträge
+
+{% for post in site.posts limit:5 %}
+<div class="card mt-4">
+  <div class="card-body">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: site.data.lang.date_format }} &sdot; {% for category in post.categories %}{{ site.data.lang.categories[category] }}{% endfor %}</h6>
+    <p class="card-text">{{ post.excerpt }}</p>
+    <a href="{{ post.url }}" class="card-link">{{ site.data.lang.excerpt_more }}</a>
+  </div>
+</div>
+{% endfor %}

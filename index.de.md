@@ -5,6 +5,8 @@ permalink: /
 ---
 Willkommen zur Dokumentation der Veranstaltungsdatenbank.
 
+<strong>Du bist neu hier?</strong> Dann empfehlen wir die Anleitung [Erste Schritte]({% post_url /guide/2023-04-01-first-steps %}).
+
 ## Kategorien
 
 <ul>
@@ -23,7 +25,7 @@ Willkommen zur Dokumentation der Veranstaltungsdatenbank.
     <h5 class="card-title">{{ post.title }}</h5>
     <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: site.data.lang.date_format }} &sdot; {% for category in post.categories %}{{ site.data.lang.categories[category] }}{% endfor %}</h6>
     <p class="card-text">{{ post.excerpt }}</p>
-    <a href="{{ post.url }}" class="card-link">{{ site.data.lang.excerpt_more }}</a>
+    <a href="{{ post.url }}" class="card-link stretched-link">{{ site.data.lang.excerpt_more }}</a>
   </div>
 </div>
 {% endfor %}

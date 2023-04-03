@@ -1,5 +1,5 @@
 ---
-title: Wie lade ich ein Mitglied zu meiner Organisation ein?
+title: Mitglied zu meiner Organisation einladen
 lang: de
 ---
 Mitglieder können per Mail eingeladen werden.

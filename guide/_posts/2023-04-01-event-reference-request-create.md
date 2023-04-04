@@ -1,7 +1,7 @@
 ---
 title: Empfehlung anfragen
 lang: de
-redirect_from: /goto/event-reference-request-create
+redirect_from: /goto/event-reference-request-create/
 ---
 
 Um eine Empfehlung für eine Veranstaltung, muss deine Organisation verifiziert sein.

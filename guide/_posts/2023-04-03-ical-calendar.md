@@ -1,7 +1,7 @@
 ---
 title: iCal Kalender
 lang: de
-redirect_from: /goto/ical-calendar
+redirect_from: /goto/ical-calendar/
 ---
 
 Veranstaltungen von Organisationen und Veranstaltern können im iCal-Format abonniert werden.

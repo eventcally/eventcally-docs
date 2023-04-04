@@ -1,7 +1,7 @@
 ---
 title: Organisation anlegen
 lang: de
-redirect_from: /goto/organization-create
+redirect_from: /goto/organization-create/
 ---
 
 Um eine neue Organisation, musst du angemeldet sein.

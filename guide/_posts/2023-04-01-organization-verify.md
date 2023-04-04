@@ -1,7 +1,7 @@
 ---
 title: Organisation verifizieren
 lang: de
-redirect_from: /goto/organization-verify
+redirect_from: /goto/organization-verify/
 ---
 
 Um eine neue Organisation zu verifizieren, musst du eine Anfrage stellen.

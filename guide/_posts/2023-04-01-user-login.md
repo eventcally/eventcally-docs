@@ -1,7 +1,7 @@
 ---
 title: Nutzer-Login
 lang: de
-redirect_from: /goto/user-login
+redirect_from: /goto/user-login/
 ---
 
 Um dich als Nutzer der Veranstaltungsdatenbank anzumelden, musst du registriert sein sowie deine Email-Adresse und dein Passwort parat haben.

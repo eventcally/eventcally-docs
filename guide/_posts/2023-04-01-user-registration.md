@@ -1,7 +1,7 @@
 ---
 title: Nutzer-Registrierung
 lang: de
-redirect_from: /goto/user-registration
+redirect_from: /goto/user-registration/
 ---
 
 Um dich als Nutzer der Veranstaltungsdatenbank zu registrieren, benötigst du eine Email-Adresse.

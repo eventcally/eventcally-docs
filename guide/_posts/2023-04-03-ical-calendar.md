@@ -30,4 +30,3 @@ Der iCal-Link befindet sich nun in der Zwischenablage. Öffne deine Kalender-Anw
 5. Klicke auf "Andere"
 6. Klicke auf "Kalenderabo hinzufügen"
 7. Füge nun den Link aus der Zwischenablage ein
-

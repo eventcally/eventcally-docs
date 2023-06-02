@@ -1,10 +1,10 @@
 ---
-title: Organisation verifizieren
+title: Organisation verifizieren lassen
 lang: de
 redirect_from: /goto/organization-verify/
 ---
 
-Um eine neue Organisation zu verifizieren, musst du eine Anfrage stellen.
+Um eine neue Organisation verifizieren zu lassen, musst du eine Anfrage stellen.
 
 Klicke rechts oben auf der Seite auf deine E-Mail-Adresse und wähle "Organisationen". Nun klicke auf die Organisation, die du verifizieren möchtest.
 

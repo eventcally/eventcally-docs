@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte
 lang: de
-redirect_from: /goto/first-steps
+redirect_from: /goto/first-steps/
 ---
 
 Auf dieser Seite haben wir erste Schritte für neue Nutzer gesammelt.

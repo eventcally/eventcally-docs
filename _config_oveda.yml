@@ -1,0 +1,31 @@
+title: Oveda Docs
+description:
+  de: Dokumentation für Oveda
+  en: Documentation for Oveda
+
+url: https://docs.oveda.de
+baseurl:
+parent_url: https://oveda.de
+
+languages: ["de", "en"]
+default_lang: "de"
+exclude_from_localization: ["assets", "favicon.ico", "CNAME"]
+parallel_localization: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-category-pages
+  - jekyll-redirect-from

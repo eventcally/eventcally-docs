@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://docs.oveda.de/en/feed.xml" rel="self" type="application/atom+xml" /><link href="https://docs.oveda.de/en/" rel="alternate" type="text/html" /><updated>2025-05-21T16:27:16+02:00</updated><id>https://docs.oveda.de/feed.xml</id><title type="html">Oveda Docs</title><subtitle>{&quot;de&quot;=&gt;&quot;Dokumentation für Oveda&quot;, &quot;en&quot;=&gt;&quot;Documentation for Oveda&quot;}</subtitle><entry xml:lang="de"><title type="html">API Rate Limit</title><link href="https://docs.oveda.de/en/2025/05/21/api-rate-limit.html" rel="alternate" type="text/html" title="API Rate Limit" /><published>2025-05-21T00:00:00+02:00</published><updated>2025-05-21T00:00:00+02:00</updated><id>https://docs.oveda.de/2025/05/21/api-rate-limit</id><content type="html" xml:base="https://docs.oveda.de/2025/05/21/api-rate-limit.html"><![CDATA[<p>Für den API-Zugriff gibt es verschiedene Rate-Limits.</p>
+
+<p>Die Rate-Limits können in den Headers der HTTP Response ausgelesen werden. Sie beginnen mit <code class="language-plaintext highlighter-rouge">X-RateLimit-</code>.</p>
+
+<p>Die Rate-Limits sind dynamisch. Im Vergleich zu API Schlüsseln haben Anfragen per OAuth ein deutlich höheres Limit.</p>
+
+<p>Bitte beachte die Informationen zur <a href="/en/2023/05/23/api-authorization.html">Authorisierung</a>.</p>]]></content><author><name></name></author><category term="developer" /><summary type="html"><![CDATA[Für den API-Zugriff gibt es verschiedene Rate-Limits.]]></summary></entry><entry xml:lang="de"><title type="html">Wie kann ich Veranstaltungen einer bestimmten Organisation finden?</title><link href="https://docs.oveda.de/en/2023/07/04/organization-events.html" rel="alternate" type="text/html" title="Wie kann ich Veranstaltungen einer bestimmten Organisation finden?" /><published>2023-07-04T00:00:00+02:00</published><updated>2023-07-04T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/07/04/organization-events</id><content type="html" xml:base="https://docs.oveda.de/2023/07/04/organization-events.html"><![CDATA[<p>Es gibt zwei Wege um Veranstaltungen einer bestimmten Organisation zu finden.</p>
+
+<p>Öffne über den Menüpunkt “Veranstaltungen” die Suche. Klicke nun auf “Weitere Filter”. Gib nun im Filter “Organisation” die gesuchte Organisation ein und starte die Suche.</p>
+
+<p>Alternativ kann über den Menüpunkt “Organisationen” eine Organisation ausgewählt werden. Von dieser Seite gelangt man auf eine Liste der Veranstaltungen, die nach der gewählten Organisation gefiltert ist.</p>]]></content><author><name></name></author><category term="faq" /><summary type="html"><![CDATA[Es gibt zwei Wege um Veranstaltungen einer bestimmten Organisation zu finden.]]></summary></entry><entry xml:lang="de"><title type="html">Newsletter Juli 2023</title><link href="https://docs.oveda.de/en/2023/07/04/newsletter-2023-07.html" rel="alternate" type="text/html" title="Newsletter Juli 2023" /><published>2023-07-04T00:00:00+02:00</published><updated>2023-07-04T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/07/04/newsletter-2023-07</id><content type="html" xml:base="https://docs.oveda.de/2023/07/04/newsletter-2023-07.html"><![CDATA[<p>Neuigkeiten im Juli 2023.</p>
+
+<h2 id="veranstaltungen-meiner-organisation">Veranstaltungen meiner Organisation</h2>
+
+<p>Der Nutzer konnte bereits Veranstaltungen seiner Organisation auflisten. Zur besseren Übersichtlichkeit zeigt die Liste beim Start keine Veranstaltungen an, die in der Vergangenheit liegen. Der Start-Filter wurde auf das heutige Datum gesetzt. Der Nutzer kann nun nach Veranstaltungsort filtern. Außerdem gibt es einen Umkreisfilter, der Veranstaltungen in/um einen bestimmten Ort filtert. Zusätzlich wurde ein Filter nach Postleitzahl eingebaut. Außerdem können Serientermine ausgeblendet werden.</p>
+
+<p>In der Liste kann man für jede Veranstaltung sehen, wie oft sie bereits empfohlen wird bzw. wieviele Empfehlungsanfragen gestellt wurden.</p>
+
+<h2 id="empfehlungsanfragen">Empfehlungsanfragen</h2>
+
+<p>Wenn der Nutzer eine neue Veranstaltung erstellt, besteht nun die Möglichkeit, eine oder mehrere Empfehlungsanfragen zu stellen. Diese Funktionalität ist direkt integriert. Es ist kein weiterer Schritt erforderlich. So kann nicht vergessen werden, eine Anfrage zu stellen.</p>
+
+<h2 id="dokumentation">Dokumentation</h2>
+
+<p>Ein Link zur Dokumentation ist jederzeit auf der Webseite (rechts oben) verfügbar. Bei bestimmten Features (z.B. der Registrierung) sind Direkt-Links auf die entsprechende Dokumentationsseite verfügbar. Die Dokumentation bietet eine Sektion „Erste Schritte“ für neue Nutzer.</p>
+
+<p><a href="/en/2023/04/01/first-steps.html">More</a>.</p>
+
+<h2 id="ical-kalender">iCal Kalender</h2>
+
+<p>Veranstaltungen von Organisationen und Veranstaltern können im iCal-Format abonniert werden.</p>
+
+<p>Damit kannst du Veranstaltungen in anderen Kalender-Anwendungen wie z.B. Microsoft Outlook, Google Kalender oder auf deinem Smartphone anzeigen lassen.</p>
+
+<p><a href="/en/2023/04/03/ical-calendar.html">More</a>.</p>
+
+<h2 id="veranstaltungen-einer-organisation-leichter-finden">Veranstaltungen einer Organisation leichter finden</h2>
+
+<p>Die Suche nach Veranstaltungen einer Organisation wurde vereinfacht. In der Ergebnisiste kann man für jede Veranstaltung sehen, ob sie bereits empfohlen wird.</p>
+
+<p><a href="/en/2023/07/04/organization-events.html">More</a>.</p>
+
+<h2 id="planung">Planung</h2>
+
+<p>Das Feature “Planung” wurde überarbeitet und erweitert.</p>
+
+<p><a href="/en/2023/06/09/event-planning.html">More</a>.</p>]]></content><author><name></name></author><category term="newsletter" /><summary type="html"><![CDATA[Neuigkeiten im Juli 2023.]]></summary></entry><entry xml:lang="de"><title type="html">Veranstaltungen planen</title><link href="https://docs.oveda.de/en/2023/06/09/event-planning.html" rel="alternate" type="text/html" title="Veranstaltungen planen" /><published>2023-06-09T00:00:00+02:00</published><updated>2023-06-09T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/06/09/event-planning</id><content type="html" xml:base="https://docs.oveda.de/2023/06/09/event-planning.html"><![CDATA[<p>Um einen passenden Termin für deine Veranstaltung zu finden, kannst du den Planungsassistenten nutzen.</p>
+
+<p>Für die Planung von Veranstaltungen gibt es den Status “In Planung”. Der Status bewirkt, dass Veranstaltungen nicht in öffentlichen Kalendern angezeigt werden, aber in der Planungsansicht.</p>
+
+<p>Die Planung steht nur Nutzern einer verifizierten Organisation zur Verfügung. Das soll ein weiterer Anreiz sein, sich zu registrieren.</p>
+
+<p>Um die Planungsansicht zu öffnen, klicke im Menü auf Planung. Hier werden nun alle Veranstaltungen angezeigt, die öffentlich oder in Planung sind. Geplante Veranstaltungen werden optisch unterschiedlich dargestellt.</p>
+
+<p>Über die Buttons “Tag”, “Woche” und “Monat” kann die Ansicht gewechselt werden. Über die Pfeiltasten kann der Zeitraum verschoben werden.</p>
+
+<p>Klicke auf den Button “Filter”, um die Veranstaltungen z.B. nach Kategorien, Postleitzahlen oder Umkreis zu filtern.</p>]]></content><author><name></name></author><category term="features" /><summary type="html"><![CDATA[Um einen passenden Termin für deine Veranstaltung zu finden, kannst du den Planungsassistenten nutzen.]]></summary></entry><entry xml:lang="de"><title type="html">API Authorization</title><link href="https://docs.oveda.de/en/2023/05/23/api-authorization.html" rel="alternate" type="text/html" title="API Authorization" /><published>2023-05-23T00:00:00+02:00</published><updated>2023-05-23T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/05/23/api-authorization</id><content type="html" xml:base="https://docs.oveda.de/2023/05/23/api-authorization.html"><![CDATA[<p>Um auf die API zuzugreifen, müssen Anfragen authorisiert werden. Die möglichen Authorisierungstypen werden im Folgenden beschrieben.</p>
+
+<p>Bitte beachte die Informationen zum <a href="/en/2025/05/21/api-rate-limit.html">Rate Limit</a>.</p>
+
+<h2 id="api-schlüssel">API Schlüssel</h2>
+
+<p>Anfragen können per API Schlüssel authorisiert werden. <strong>Mit dieser Methode kann ausschließlich auf öffentliche Daten ohne Nutzer-Kontext zugegriffen werden</strong>.</p>
+
+<h3 id="api-schlüssel-erstellen">API Schlüssel erstellen</h3>
+
+<p>Gehe auf dein Profil und wähle im Bereich “Entwickler” den Punkt “API Schlüssel”. <em>Alternativ kann man auch für Organisationen API Schlüssel erstellen (Menü &gt; Organisation &gt; Api Schlüssel)</em>. Klicke auf “API Schlüssel erstellen”. Wähle einen Namen und klicke auf “Erstellen”. Auf der folgenden Seite wird der API Schlüssel angezeigt.</p>
+
+<h3 id="api-aufrufen">API aufrufen</h3>
+
+<p>Um auf die API zuzugreifen, muss der erhaltene API Schlüssel im Header <code class="language-plaintext highlighter-rouge">x-api-key</code> des HTTP Requests übergeben werden.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">--request</span> GET <span class="se">\</span>
+  <span class="nt">--url</span> https://<span class="o">{</span>DOMAIN<span class="o">}</span>/api/v1/events <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'x-api-key: {API_KEY}'</span> <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'content-type: application/json'</span>
+</code></pre></div></div>
+
+<h2 id="oauth2openid">OAuth2/OpenID</h2>
+
+<p>Die Authorisierung kann mittels OAuth2/OpenID realisiert werden: <a href="https://auth0.com/de/intro-to-iam/what-is-oauth-2">Mehr Informationen zu OAuth2</a>.</p>
+
+<p>Es werden die OAuth Grants <code class="language-plaintext highlighter-rouge">authorization_code</code> und <code class="language-plaintext highlighter-rouge">client_credentials</code> unterstützt. Um Zugriffsdaten zu erhalten, muss eine OAuth Client Definition erstellt werden. Gehe dazu auf dein Profil und wähle im Bereich “Entwickler” den Punkt “OAuth2 Clients”.</p>
+
+<h3 id="öffentlicher-lese-zugriff">Öffentlicher Lese-Zugriff</h3>
+
+<p>Dieser Abschnitt beschreibt den Zugriff auf öffentliche Daten ohne Nutzer-Kontext. Dafür wird der OAuth Grant <code class="language-plaintext highlighter-rouge">client_credentials</code> verwendet: <a href="https://auth0.com/docs/get-started/authentication-and-authorization-flow/call-your-api-using-the-client-credentials-flow">Mehr Informationen zum Flow</a>.</p>
+
+<h4 id="client-erstellen">Client erstellen</h4>
+
+<p>Gehe auf dein Profil und wähle im Bereich “Entwickler” den Punkt “OAuth2 Clients”. Klicke auf “OAuth2 Client hinzufügen”. Wähle einen Namen und lasse die übrigen Eingabefelder leer. Klicke auf “Speichern”. Auf der folgenden Seite stehen die erforderlichen Informationen “Client ID” und “Client Secret”.</p>
+
+<h4 id="access-token-anfragen">Access token anfragen</h4>
+
+<p>Um auf die API zuzugreifen, muss ein Access Token angefordert werden. Dafür muss eine POST-Anfrage an die Token URL gesendet werden.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl  <span class="nt">--request</span> POST <span class="se">\</span>
+  <span class="nt">--url</span> <span class="s1">'https://{DOMAIN}/oauth/token'</span> <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'content-type: application/x-www-form-urlencoded'</span> <span class="se">\</span>
+  <span class="nt">--data</span> <span class="nv">grant_type</span><span class="o">=</span>client_credentials <span class="se">\</span>
+  <span class="nt">--data</span> <span class="nv">client_id</span><span class="o">={</span>YOUR_CLIENT_ID<span class="o">}</span> <span class="se">\</span>
+  <span class="nt">--data</span> <span class="nv">client_secret</span><span class="o">={</span>YOUR_CLIENT_SECRET<span class="o">}</span>
+</code></pre></div></div>
+
+<h4 id="antwort-verarbeiten">Antwort verarbeiten</h4>
+
+<p>Die Antwort erhält Informationen wie den Access Token im JSON-Format.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">access_token</span><span class="dl">"</span><span class="p">:</span><span class="dl">"</span><span class="s2">{ACCESS_TOKEN}</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">token_type</span><span class="dl">"</span><span class="p">:</span><span class="dl">"</span><span class="s2">Bearer</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">expires_in</span><span class="dl">"</span><span class="p">:</span><span class="mi">86400</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="api-aufrufen-1">API aufrufen</h4>
+
+<p>Um auf die API zuzugreifen, muss der erhaltene Access Token as Bearer Token im Authorization Header des HTTP Requests übergeben werden.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">--request</span> GET <span class="se">\</span>
+  <span class="nt">--url</span> https://<span class="o">{</span>DOMAIN<span class="o">}</span>/api/v1/events <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'authorization: Bearer {ACCESS_TOKEN}'</span> <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'content-type: application/json'</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="developer" /><summary type="html"><![CDATA[Um auf die API zuzugreifen, müssen Anfragen authorisiert werden. Die möglichen Authorisierungstypen werden im Folgenden beschrieben.]]></summary></entry><entry xml:lang="de"><title type="html">Newsletter April 2023</title><link href="https://docs.oveda.de/en/2023/04/03/newsletter-2023-04.html" rel="alternate" type="text/html" title="Newsletter April 2023" /><published>2023-04-03T00:00:00+02:00</published><updated>2023-04-03T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/04/03/newsletter-2023-04</id><content type="html" xml:base="https://docs.oveda.de/2023/04/03/newsletter-2023-04.html"><![CDATA[<p>Neuigkeiten im April 2023.</p>
+
+<h2 id="ical-kalender">iCal Kalender</h2>
+
+<p>Veranstaltungen von Organisationen und Veranstaltern können im iCal-Format abonniert werden.</p>
+
+<p>Damit kannst du Veranstaltungen in anderen Kalender-Anwendungen wie z.B. Microsoft Outlook, Google Kalender oder auf deinem Smartphone anzeigen lassen.</p>
+
+<p><a href="/en/2023/04/03/ical-calendar.html">More</a>.</p>
+
+<h2 id="dokumentation">Dokumentation</h2>
+
+<p>Eine Dokumentation mit Anleitungen, Funktionen, häufig gestellen Fragen und Newsletter geht online.</p>
+
+<p><a href="/en/">More</a>.</p>]]></content><author><name></name></author><category term="newsletter" /><summary type="html"><![CDATA[Neuigkeiten im April 2023.]]></summary></entry><entry xml:lang="de"><title type="html">iCal Kalender</title><link href="https://docs.oveda.de/en/2023/04/03/ical-calendar.html" rel="alternate" type="text/html" title="iCal Kalender" /><published>2023-04-03T00:00:00+02:00</published><updated>2023-04-03T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/04/03/ical-calendar</id><content type="html" xml:base="https://docs.oveda.de/2023/04/03/ical-calendar.html"><![CDATA[<p>Veranstaltungen von Organisationen und Veranstaltern können im iCal-Format abonniert werden.</p>
+
+<p>Damit kannst du Veranstaltungen in anderen Kalender-Anwendungen wie z.B. Microsoft Outlook, Google Kalender oder auf deinem Smartphone anzeigen lassen.</p>
+
+<p>Öffne die Seite einer Organisation oder eines Veranstalters. Dorthin kommst du z.B. wenn du eine Veranstaltung öffnest und dort auf den Namen der Organisation bzw. des Veranstalters klickst.</p>
+
+<p>Klicke auf der Seite auf den Button “iCal Kalender”. Klicke im nächsten Dialog auf “Link kopieren”.</p>
+
+<p>Der iCal-Link befindet sich nun in der Zwischenablage. Öffne deine Kalender-Anwendung und füge den Link als Kalender-Abonnement hinzu. Das funktioniert bei jeder Anwendung etwas anders. Im Folgenden ist das Vorgehen für ein paar Anwendungen aufgeführt. Für andere Anwendungen den Suchbegriff “iCal abonnieren” + Anwendung in eine Suchmaschine eingeben.</p>
+
+<h2 id="microsoft-outlook">Microsoft Outlook</h2>
+
+<ol>
+  <li>Öffne Outlook und wechsel in die Kalenderansicht</li>
+  <li>Klicke auf den Button “Kalender hinzufügen”</li>
+  <li>Klicke auf “Kalender aus dem Internet hinzufügen”</li>
+  <li>Füge nun den Link aus der Zwischenablage ein</li>
+</ol>
+
+<h2 id="iphone">iPhone</h2>
+
+<ol>
+  <li>Öffne die Einstellungen-App</li>
+  <li>Klicke auf “Kalender”</li>
+  <li>Klicke auf “Accounts”</li>
+  <li>Klicke auf “Account hinzufügen”</li>
+  <li>Klicke auf “Andere”</li>
+  <li>Klicke auf “Kalenderabo hinzufügen”</li>
+  <li>Füge nun den Link aus der Zwischenablage ein</li>
+</ol>]]></content><author><name></name></author><category term="guide" /><summary type="html"><![CDATA[Veranstaltungen von Organisationen und Veranstaltern können im iCal-Format abonniert werden.]]></summary></entry><entry xml:lang="de"><title type="html">Erste Schritte für eine neue Organisation</title><link href="https://docs.oveda.de/en/2023/04/01/first-steps-new-organization.html" rel="alternate" type="text/html" title="Erste Schritte für eine neue Organisation" /><published>2023-04-01T00:00:00+02:00</published><updated>2023-04-01T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/04/01/first-steps-new-organization</id><content type="html" xml:base="https://docs.oveda.de/2023/04/01/first-steps-new-organization.html"><![CDATA[<p>Möchtest du eine neue Organisation anlegen, empfehlen wir folgende Anleitungen:</p>
+
+<ol>
+  <li><a href="/en/2023/04/01/user-registration.html">Nutzer-Registrierung</a></li>
+  <li><a href="/en/2023/04/01/organization-create.html">Organisation anlegen</a></li>
+  <li><a href="/en/2023/04/01/organization-verify.html">Organisation verifizieren lassen</a></li>
+  <li><a href="/en/2023/04/01/event-create.html">Veranstaltung anlegen</a></li>
+  <li><a href="/en/2023/04/01/event-reference-request-create.html">Empfehlung anfragen</a></li>
+  <li><a href="/en/2023/03/29/organization-member-invite.html">Mitglied einladen</a></li>
+</ol>]]></content><author><name></name></author><category term="guide" /><summary type="html"><![CDATA[Möchtest du eine neue Organisation anlegen, empfehlen wir folgende Anleitungen:]]></summary></entry><entry xml:lang="de"><title type="html">Erste Schritte</title><link href="https://docs.oveda.de/en/2023/04/01/first-steps.html" rel="alternate" type="text/html" title="Erste Schritte" /><published>2023-04-01T00:00:00+02:00</published><updated>2023-04-01T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/04/01/first-steps</id><content type="html" xml:base="https://docs.oveda.de/2023/04/01/first-steps.html"><![CDATA[<p>Auf dieser Seite haben wir erste Schritte für neue Nutzer gesammelt.</p>
+
+<h2 id="mitgliedseinladung">Mitgliedseinladung</h2>
+
+<p>Wurdest du zu einer Organisation eingeladen, empfehlen wir folgende <a href="/en/2023/04/01/first-steps-invitation.html">Anleitungen</a>.</p>
+
+<h2 id="neue-organisation">Neue Organisation</h2>
+
+<p>Möchtest du eine neue Organisation anlegen, empfehlen wir folgende <a href="/en/2023/04/01/first-steps-new-organization.html">Anleitungen</a>.</p>]]></content><author><name></name></author><category term="guide" /><summary type="html"><![CDATA[Auf dieser Seite haben wir erste Schritte für neue Nutzer gesammelt.]]></summary></entry><entry xml:lang="de"><title type="html">Mitgliedseinladung akzeptieren</title><link href="https://docs.oveda.de/en/2023/04/01/invitation-accept.html" rel="alternate" type="text/html" title="Mitgliedseinladung akzeptieren" /><published>2023-04-01T00:00:00+02:00</published><updated>2023-04-01T00:00:00+02:00</updated><id>https://docs.oveda.de/2023/04/01/invitation-accept</id><content type="html" xml:base="https://docs.oveda.de/2023/04/01/invitation-accept.html"><![CDATA[<p>Um eine neue Organisation, musst du angemeldet sein.</p>
+
+<p>Klicke rechts oben auf der Seite auf deine E-Mail-Adresse und wähle “Organisationen”.</p>
+
+<p>Wenn du zur Mitgliedschaft in einer Organisation eingeladen wurdest, werden deine Einladungen hier aufgelistet. Wähle einen Eintrag in der Liste “Einladungen” aus.</p>
+
+<p>Auf der nächsten Seite kannst du die Einladung akzeptieren oder ablehnen.</p>]]></content><author><name></name></author><category term="guide" /><summary type="html"><![CDATA[Um eine neue Organisation, musst du angemeldet sein.]]></summary></entry></feed>

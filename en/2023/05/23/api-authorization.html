@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/ext/bootstrap.4.4.1.min.css">
+    <link rel="stylesheet" href="/assets/ext/font-awesome.5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/syntax-github.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <script src="/assets/ext/jquery-1.12.4.min.js"></script>
+    <link rel="alternate" hreflang="de" href="https://docs.eventcally.com/2023/05/23/api-authorization.html" />
+    
+        
+        
+        <link rel="alternate" hreflang="en" href="https://docs.eventcally.com/en/2023/05/23/api-authorization.html" />
+    
+    <title>
+          API Authorization &middot; EventCally Docs
+      </title>
+    <link type="application/atom+xml" rel="alternate" href="https://docs.eventcally.com/en/feed.xml" title="EventCally Docs" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>API Authorization | EventCally Docs</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="API Authorization" />
+<meta property="og:locale" content="de" />
+<meta name="description" content="Um auf die API zuzugreifen, müssen Anfragen authorisiert werden. Die möglichen Authorisierungstypen werden im Folgenden beschrieben." />
+<meta property="og:description" content="Um auf die API zuzugreifen, müssen Anfragen authorisiert werden. Die möglichen Authorisierungstypen werden im Folgenden beschrieben." />
+<link rel="canonical" href="https://docs.eventcally.com/en/2023/05/23/api-authorization.html" />
+<meta property="og:url" content="https://docs.eventcally.com/2023/05/23/api-authorization.html" />
+<meta property="og:site_name" content="EventCally Docs" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-23T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="API Authorization" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-05-23T00:00:00+02:00","datePublished":"2023-05-23T00:00:00+02:00","description":"Um auf die API zuzugreifen, müssen Anfragen authorisiert werden. Die möglichen Authorisierungstypen werden im Folgenden beschrieben.","headline":"API Authorization","mainEntityOfPage":{"@type":"WebPage","@id":"https://docs.eventcally.com/2023/05/23/api-authorization.html"},"url":"https://docs.eventcally.com/2023/05/23/api-authorization.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/en/">
+        <img src="/assets/images/calendar_icon_90.png" width="30" height="30" class="d-inline-block align-top rounded"
+            alt="Logo"> Docs
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+            
+                
+                <a class="nav-item nav-link" href="https://docs.eventcally.com/en/category/faq/index.html">FAQ</a>
+            
+                
+                <a class="nav-item nav-link" href="https://docs.eventcally.com/en/category/features/index.html">Features</a>
+            
+                
+                <a class="nav-item nav-link" href="https://docs.eventcally.com/en/category/guide/index.html">Guide</a>
+            
+                
+                <a class="nav-item nav-link" href="https://docs.eventcally.com/en/category/newsletter/index.html">Newsletter</a>
+            
+                
+                <a class="nav-item nav-link" href="https://docs.eventcally.com/en/category/developer/index.html">Developer</a>
+            
+        </div>
+        <div class="navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarUserDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-language" style="font-size: 1.5rem;"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarUserDropdown">
+                    
+                    <a class="dropdown-item"  href="/2023/05/23/api-authorization.html">Deutsch</a>
+                    
+                    <a class="dropdown-item" style="font-weight: bold;"  href="/en/2023/05/23/api-authorization.html">English</a>
+                    
+            </li>
+        </div>
+    </div>
+</nav>
+
+<p>
+
+</p>
+    <div class="body-content w-normal">
+        <main class="p-3">
+            <p>
+  
+  <a href="https://docs.eventcally.com/en/category/developer/index.html">Developer</a>
+  
+</p>
+
+<h1>API Authorization</h1>
+
+<p>Um auf die API zuzugreifen, müssen Anfragen authorisiert werden. Die möglichen Authorisierungstypen werden im Folgenden beschrieben.</p>
+
+<p>Bitte beachte die Informationen zum <a href="/en/2025/05/21/api-rate-limit.html">Rate Limit</a>.</p>
+
+<h2 id="api-schlüssel">API Schlüssel</h2>
+
+<p>Anfragen können per API Schlüssel authorisiert werden. <strong>Mit dieser Methode kann ausschließlich auf öffentliche Daten ohne Nutzer-Kontext zugegriffen werden</strong>.</p>
+
+<h3 id="api-schlüssel-erstellen">API Schlüssel erstellen</h3>
+
+<p>Gehe auf dein Profil und wähle im Bereich “Entwickler” den Punkt “API Schlüssel”. <em>Alternativ kann man auch für Organisationen API Schlüssel erstellen (Menü &gt; Organisation &gt; Api Schlüssel)</em>. Klicke auf “API Schlüssel erstellen”. Wähle einen Namen und klicke auf “Erstellen”. Auf der folgenden Seite wird der API Schlüssel angezeigt.</p>
+
+<h3 id="api-aufrufen">API aufrufen</h3>
+
+<p>Um auf die API zuzugreifen, muss der erhaltene API Schlüssel im Header <code class="language-plaintext highlighter-rouge">x-api-key</code> des HTTP Requests übergeben werden.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">--request</span> GET <span class="se">\</span>
+  <span class="nt">--url</span> https://<span class="o">{</span>DOMAIN<span class="o">}</span>/api/v1/events <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'x-api-key: {API_KEY}'</span> <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'content-type: application/json'</span>
+</code></pre></div></div>
+
+<h2 id="oauth2openid">OAuth2/OpenID</h2>
+
+<p>Die Authorisierung kann mittels OAuth2/OpenID realisiert werden: <a href="https://auth0.com/de/intro-to-iam/what-is-oauth-2">Mehr Informationen zu OAuth2</a>.</p>
+
+<p>Es werden die OAuth Grants <code class="language-plaintext highlighter-rouge">authorization_code</code> und <code class="language-plaintext highlighter-rouge">client_credentials</code> unterstützt. Um Zugriffsdaten zu erhalten, muss eine OAuth Client Definition erstellt werden. Gehe dazu auf dein Profil und wähle im Bereich “Entwickler” den Punkt “OAuth2 Clients”.</p>
+
+<h3 id="öffentlicher-lese-zugriff">Öffentlicher Lese-Zugriff</h3>
+
+<p>Dieser Abschnitt beschreibt den Zugriff auf öffentliche Daten ohne Nutzer-Kontext. Dafür wird der OAuth Grant <code class="language-plaintext highlighter-rouge">client_credentials</code> verwendet: <a href="https://auth0.com/docs/get-started/authentication-and-authorization-flow/call-your-api-using-the-client-credentials-flow">Mehr Informationen zum Flow</a>.</p>
+
+<h4 id="client-erstellen">Client erstellen</h4>
+
+<p>Gehe auf dein Profil und wähle im Bereich “Entwickler” den Punkt “OAuth2 Clients”. Klicke auf “OAuth2 Client hinzufügen”. Wähle einen Namen und lasse die übrigen Eingabefelder leer. Klicke auf “Speichern”. Auf der folgenden Seite stehen die erforderlichen Informationen “Client ID” und “Client Secret”.</p>
+
+<h4 id="access-token-anfragen">Access token anfragen</h4>
+
+<p>Um auf die API zuzugreifen, muss ein Access Token angefordert werden. Dafür muss eine POST-Anfrage an die Token URL gesendet werden.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl  <span class="nt">--request</span> POST <span class="se">\</span>
+  <span class="nt">--url</span> <span class="s1">'https://{DOMAIN}/oauth/token'</span> <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'content-type: application/x-www-form-urlencoded'</span> <span class="se">\</span>
+  <span class="nt">--data</span> <span class="nv">grant_type</span><span class="o">=</span>client_credentials <span class="se">\</span>
+  <span class="nt">--data</span> <span class="nv">client_id</span><span class="o">={</span>YOUR_CLIENT_ID<span class="o">}</span> <span class="se">\</span>
+  <span class="nt">--data</span> <span class="nv">client_secret</span><span class="o">={</span>YOUR_CLIENT_SECRET<span class="o">}</span>
+</code></pre></div></div>
+
+<h4 id="antwort-verarbeiten">Antwort verarbeiten</h4>
+
+<p>Die Antwort erhält Informationen wie den Access Token im JSON-Format.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">access_token</span><span class="dl">"</span><span class="p">:</span><span class="dl">"</span><span class="s2">{ACCESS_TOKEN}</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">token_type</span><span class="dl">"</span><span class="p">:</span><span class="dl">"</span><span class="s2">Bearer</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">expires_in</span><span class="dl">"</span><span class="p">:</span><span class="mi">86400</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="api-aufrufen-1">API aufrufen</h4>
+
+<p>Um auf die API zuzugreifen, muss der erhaltene Access Token as Bearer Token im Authorization Header des HTTP Requests übergeben werden.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">--request</span> GET <span class="se">\</span>
+  <span class="nt">--url</span> https://<span class="o">{</span>DOMAIN<span class="o">}</span>/api/v1/events <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'authorization: Bearer {ACCESS_TOKEN}'</span> <span class="se">\</span>
+  <span class="nt">--header</span> <span class="s1">'content-type: application/json'</span>
+</code></pre></div></div>
+
+        </main>
+        <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col h-100 text-center my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="https://eventcally.com/legal_notice" class="text-muted">Legal notice</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="https://eventcally.com/contact" class="text-muted">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+    </div>
+
+    <script src="/assets/ext/popper.1.16.0.min.js"></script>
+    <script src="/assets/ext/bootstrap.4.4.1.min.js"></script>
+  </body>
+</html>
